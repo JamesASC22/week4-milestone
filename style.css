@@ -1,0 +1,77 @@
+.navbar {
+    display: block;
+    height: 75px;
+    line-height: 75px;
+    background-color: #333
+    }
+
+    .nav-item {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #navbarrow {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    img {
+        width: 60px;
+    }
+    
+    .items:hover {
+        background-color: gray;
+        opacity: 0.5;
+    }
+    
+    /* hero background image */
+    .bgimage {
+        height:1050px;
+        background: url('https://www.spacex.com/static/images/backgrounds-2022/kplo/post-launch/Homepage_Desktop.webp');
+        background-size:cover;
+        position:relative;
+    }
+    /* text css above hero image*/
+    .hero_title {
+        font-size: 2rem;
+    }
+    .hero_desc {
+        font-size: 4.5rem;
+    }
+    
+    .hero-text {
+        text-align: left;
+        position: absolute;
+        top: 65%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    /* experience section css */
+    .experienceText.card {
+        height: 280px;
+        cursor: pointer;
+      }
+    .experienceIcon {
+        font-size: 300px;
+        text-align: center;
+        width: 100%;
+    }
+    .card-title {
+        text-align: center;
+    }
+    .card:hover .experienceIcon {
+        color: #008000;
+    }
+    .experienceText:hover {
+        border: 1px solid #008000;
+    }
+
+    .kplo-launch {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .kplo-desc {
+        font-size: 4.5rem;
+    }
